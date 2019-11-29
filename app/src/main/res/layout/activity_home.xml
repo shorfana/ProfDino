@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backhome"
+    tools:context=".View.HomeActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:background="@drawable/profdion"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"/>
+        <ImageView
+            android:id="@+id/ensiklopedi"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:background="@drawable/ensiklopedi"
+            android:layout_gravity="center"
+            android:layout_marginTop="250dp"
+            />
+        <ImageView
+            android:id="@+id/quiz"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:background="@drawable/quispn"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+</LinearLayout>
